@@ -80,3 +80,17 @@ if (titre11) {
     open("niveau3.html");
   });
 }
+
+
+
+
+const themeButton = document.querySelector('#bouton50');
+
+themeButton.addEventListener('click', () => {
+  document.body.classList.toggle('mode-claire');
+  if (document.body.classList.contains('mode-claire')) {
+    themeButton.textContent = "mode-sombre !";
+  } else {
+    themeButton.textContent = "mode-claire !";
+  }
+});
