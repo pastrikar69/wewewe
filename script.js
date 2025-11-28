@@ -45,11 +45,6 @@ if (titre6) {
 }
 
 
-document.querySelectorAll("button").forEach(btn => {
-    btn.addEventListener("click", () => {
-        window.location.href = "question3.html";
-    });
-});
 
 
 
@@ -82,4 +77,62 @@ boutons.forEach(bouton => {
         boutons.forEach(b => b.disabled = true);
     });
 });
+
+
+
+
+
+
+
+
+
+const nextBtn = document.createElement("button");
+nextBtn.textContent = "Question suivante";
+nextBtn.style.display = "none"; 
+document.body.appendChild(nextBtn);
+nextBtn.addEventListener("click", () => {
+    window.location.href = "1question2.html";  
+});
+const btn3 = document.getElementById("btn3");
+if (btn3) {
+    btn3.addEventListener("click", () => {
+        nextBtn.style.display = "inline-block";
+    });
+}
+
+
+
+
+const nextBtn1 = document.createElement("button");
+nextBtn1.textContent = "Question Suivante";
+nextBtn1.style.display = "none"; 
+document.body.appendChild(nextBtn1);
+nextBtn1.addEventListener("click", () => {
+    window.location.href = "1question2.html";  
+});
+const btn2 = document.getElementById("btn2");
+if (btn2) {
+    btn2.addEventListener("click", () => {
+        nextBtn1.style.display = "inline-block";
+    });
+}
+
+
+
+
+const nextBtn2 = document.createElement("button");
+nextBtn2.textContent = "Question Suivante";
+nextBtn2.style.display = "none"; 
+document.body.appendChild(nextBtn2);
+nextBtn2.addEventListener("click", () => {
+    window.location.href = "1question2.html";  
+});
+const btn1 = document.getElementById("btn1");
+if (btn1) {
+    btn1.addEventListener("click", () => {
+        nextBtn1.style.display = "inline-block";
+    });
+}
+
+
 
