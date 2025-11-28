@@ -49,3 +49,19 @@ body.mode-sombre {
 body.mode-sombre a {
   color: #2d3b31;
 }
+
+
+
+
+
+
+
+.bonne-reponse {
+    background-color: #4CAF50 !important;
+    color: white;
+}
+
+.mauvaise-reponse {
+    background-color: #e74c3c !important; 
+    color: white;
+}
