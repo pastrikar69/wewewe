@@ -484,3 +484,100 @@ if (btn9) {
         nextBtn32.style.display = "inline-block";
     });
 }
+
+
+
+const nextBtn33 = document.createElement("button");
+nextBtn33.textContent = "Question Suivante";
+nextBtn33.style.display = "none"; 
+document.body.appendChild(nextBtn33);
+nextBtn33.addEventListener("click", () => {
+    window.location.href = "3question3.html";  
+});
+const btn16 = document.getElementById("btn16");
+if (btn16) {
+    btn16.addEventListener("click", () => {
+        nextBtn33.style.display = "inline-block";
+    });
+}
+
+
+const nextBtn34 = document.createElement("button");
+nextBtn34.textContent = "Question Suivante";
+nextBtn34.style.display = "none"; 
+document.body.appendChild(nextBtn34);
+nextBtn34.addEventListener("click", () => {
+    window.location.href = "3question3.html";  
+});
+const btn17 = document.getElementById("btn17");
+if (btn17) {
+    btn17.addEventListener("click", () => {
+        nextBtn34.style.display = "inline-block";
+    });
+}
+
+
+const nextBtn35 = document.createElement("button");
+nextBtn35.textContent = "Question Suivante";
+nextBtn35.style.display = "none"; 
+document.body.appendChild(nextBtn35);
+nextBtn35.addEventListener("click", () => {
+    window.location.href = "3question3.html";  
+});
+const btn18 = document.getElementById("btn18");
+if (btn18) {
+    btn18.addEventListener("click", () => {
+        nextBtn35.style.display = "inline-block";
+    });
+}
+
+
+
+
+
+const nextBtn36 = document.createElement("button");
+nextBtn36.textContent = "Voir mon résultat";
+nextBtn36.style.display = "none"; 
+document.body.appendChild(nextBtn36);
+nextBtn36.addEventListener("click", () => {
+    window.location.href = "fin.html";  
+});
+const btn25 = document.getElementById("btn25");
+if (btn25) {
+    btn25.addEventListener("click", () => {
+        nextBtn36.style.display = "inline-block";
+    });
+}
+
+
+
+const nextBtn37 = document.createElement("button");
+nextBtn37.textContent = "Voir mon résultat";
+nextBtn37.style.display = "none"; 
+document.body.appendChild(nextBtn37);
+nextBtn37.addEventListener("click", () => {
+    window.location.href = "fin.html";  
+});
+const btn26 = document.getElementById("btn26");
+if (btn26) {
+    btn26.addEventListener("click", () => {
+        nextBtn37.style.display = "inline-block";
+    });
+}
+
+
+
+
+const nextBtn38 = document.createElement("button");
+nextBtn38.textContent = "Voir mon résultat";
+nextBtn38.style.display = "none"; 
+document.body.appendChild(nextBtn38);
+nextBtn38.addEventListener("click", () => {
+    window.location.href = "fin.html";  
+});
+const btn27 = document.getElementById("btn27");
+if (btn27) {
+    btn27.addEventListener("click", () => {
+        nextBtn38.style.display = "inline-block";
+    });
+}
