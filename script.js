@@ -187,7 +187,7 @@ if (btn12) {
 
 
 const nextBtn6 = document.createElement("button");
-nextBtn6.textContent = "Voir le resultat";
+nextBtn6.textContent = "Voir mon résultat";
 nextBtn6.style.display = "none"; 
 document.body.appendChild(nextBtn6);
 nextBtn6.addEventListener("click", () => {
@@ -203,7 +203,7 @@ if (btn19) {
 
 
 const nextBtn7 = document.createElement("button");
-nextBtn7.textContent = "Voir le resultat";
+nextBtn7.textContent = "Voir mon résultat";
 nextBtn7.style.display = "none"; 
 document.body.appendChild(nextBtn7);
 nextBtn7.addEventListener("click", () => {
@@ -219,7 +219,7 @@ if (btn20) {
 
 
 const nextBtn8 = document.createElement("button");
-nextBtn8.textContent = "Voir le resultat";
+nextBtn8.textContent = "Voir mon résultat";
 nextBtn8.style.display = "none"; 
 document.body.appendChild(nextBtn8);
 nextBtn8.addEventListener("click", () => {
@@ -274,11 +274,13 @@ if (btn21) {
 
 
 
+
+
 const nextBtn9 = document.createElement("button");
 nextBtn9.textContent = "Question Suivante";
 nextBtn9.style.display = "none"; 
 document.body.appendChild(nextBtn9);
-nextBtn3.addEventListener("click", () => {
+nextBtn9.addEventListener("click", () => {
     window.location.href = "2question2.html";  
 });
 const btn4 = document.getElementById("btn4");
@@ -287,6 +289,7 @@ if (btn4) {
         nextBtn9.style.display = "inline-block";
     });
 }
+
 
 
 
@@ -329,9 +332,9 @@ document.body.appendChild(nextBtn15);
 nextBtn15.addEventListener("click", () => {
     window.location.href = "3question2.html";  
 });
-const btn16 = document.getElementById("btn16");
-if (btn16) {
-    btn16.addEventListener("click", () => {
+const btn13 = document.getElementById("btn13");
+if (btn13) {
+    btn13.addEventListener("click", () => {
         nextBtn15.style.display = "inline-block";
     });
 }
@@ -345,9 +348,9 @@ document.body.appendChild(nextBtn16);
 nextBtn16.addEventListener("click", () => {
     window.location.href = "3question2.html";  
 });
-const btn17 = document.getElementById("btn17");
-if (btn17) {
-    btn17.addEventListener("click", () => {
+const btn14 = document.getElementById("btn14");
+if (btn14) {
+    btn14.addEventListener("click", () => {
         nextBtn16.style.display = "inline-block";
     });
 }
@@ -361,9 +364,123 @@ document.body.appendChild(nextBtn17);
 nextBtn17.addEventListener("click", () => {
     window.location.href = "3question2.html";  
 });
-const btn18 = document.getElementById("btn18");
-if (btn18) {
-    btn18.addEventListener("click", () => {
+const btn15 = document.getElementById("btn15");
+if (btn15) {
+    btn15.addEventListener("click", () => {
         nextBtn17.style.display = "inline-block";
+    });
+}
+
+
+const nextBtn20 = document.createElement("button");
+nextBtn20.textContent = "Voir mon résultat";
+nextBtn20.style.display = "none"; 
+document.body.appendChild(nextBtn20);
+nextBtn20.addEventListener("click", () => {
+    window.location.href = "fin.html";  
+});
+const btn22 = document.getElementById("btn22");
+if (btn22) {
+    btn22.addEventListener("click", () => {
+        nextBtn20.style.display = "inline-block";
+    });
+}
+
+
+
+const nextBtn21 = document.createElement("button");
+nextBtn21.textContent = "Voir mon résultat";
+nextBtn21.style.display = "none"; 
+document.body.appendChild(nextBtn21);
+nextBtn21.addEventListener("click", () => {
+    window.location.href = "fin.html";  
+});
+const btn23 = document.getElementById("btn23");
+if (btn23) {
+    btn23.addEventListener("click", () => {
+        nextBtn21.style.display = "inline-block";
+    });
+}
+
+
+
+
+const nextBtn22 = document.createElement("button");
+nextBtn22.textContent = "Voir mon résultat";
+nextBtn22.style.display = "none"; 
+document.body.appendChild(nextBtn22);
+nextBtn22.addEventListener("click", () => {
+    window.location.href = "fin.html";  
+});
+const btn24 = document.getElementById("btn24");
+if (btn24) {
+    btn24.addEventListener("click", () => {
+        nextBtn22.style.display = "inline-block";
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const nextBtn30 = document.createElement("button");
+nextBtn30.textContent = "Question Suivante";
+nextBtn30.style.display = "none"; 
+document.body.appendChild(nextBtn30);
+nextBtn30.addEventListener("click", () => {
+    window.location.href = "2question3.html";  
+});
+const btn7 = document.getElementById("btn7");
+if (btn7) {
+    btn7.addEventListener("click", () => {
+        nextBtn30.style.display = "inline-block";
+    });
+}
+
+
+
+
+
+const nextBtn31 = document.createElement("button");
+nextBtn31.textContent = "Question Suivante";
+nextBtn31.style.display = "none"; 
+document.body.appendChild(nextBtn31);
+nextBtn31.addEventListener("click", () => {
+    window.location.href = "2question3.html";  
+});
+const btn8 = document.getElementById("btn8");
+if (btn8) {
+    btn8.addEventListener("click", () => {
+        nextBtn31.style.display = "inline-block";
+    });
+}
+
+
+
+
+const nextBtn32 = document.createElement("button");
+nextBtn32.textContent = "Question Suivante";
+nextBtn32.style.display = "none"; 
+document.body.appendChild(nextBtn32);
+nextBtn32.addEventListener("click", () => {
+    window.location.href = "2question3.html";  
+});
+const btn9 = document.getElementById("btn9");
+if (btn9) {
+    btn9.addEventListener("click", () => {
+        nextBtn32.style.display = "inline-block";
     });
 }
