@@ -45,6 +45,13 @@ if (titre6) {
 }
 
 
+const titre666 = document.querySelector('#bou7')
+if (titre666) {
+  titre666.addEventListener('click', () => {
+    window.location.href = "index.html";
+  });
+}
+
 
 
 
@@ -71,8 +78,10 @@ boutons.forEach(bouton => {
     bouton.addEventListener('click', () => {
         if (bouton.dataset.correct === "true") {
             bouton.classList.add("bonne-reponse");
+            console.log("Bien jouer")
         } else {
             bouton.classList.add("mauvaise-reponse");
+            console.log("HAHA NON T NUL")
         }
         boutons.forEach(b => b.disabled = true);
     });

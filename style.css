@@ -58,10 +58,10 @@ body.mode-sombre a {
 
 .bonne-reponse {
     background-color: #4CAF50 !important;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .mauvaise-reponse {
     background-color: #e74c3c !important; 
-    color: white;
+    color: rgb(0, 0, 0);
 }
